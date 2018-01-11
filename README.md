@@ -13,7 +13,7 @@ Licensed under the MIT License.
 ## Quick Start
 
 Copy the `cu.aff` and `cu.dic` files into the Hunspell directory
-(probably `/usr/share/hunspell/`
+(probably `/usr/share/hunspell/`).
 
 Extensions also exist for LibreOffice and other software, which
 are based on this package.
@@ -26,7 +26,7 @@ At present, this is a poorman's spell checker:
 - The dictionary does not provide any morphology
 
 Morphological analysis for Church Slavonic is hard to do. Since
-we presently don't have the resources to a write morphology into
+we presently don't have the resources to write morphology into
 the dictionary, the spell checker will only check the words present
 in the dictionary. In other words, if the dictionary contains:
 
