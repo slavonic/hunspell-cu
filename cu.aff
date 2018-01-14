@@ -1,14 +1,51 @@
 SET UTF-8
 TRY ́еаноисвртлѧпмдꙋѣ҆ъікбгызшї̈юѡщч̆йжхьуᲂє҃ц̑̀ѵѿѻ҇фѳⷭ̾ѝѕ̏ѷꙗѐⷣѯⷪѱⷢⷬⷯⷤⷩⷡꙍⷧѽⷦⷱⷴⷠⷨⷥЕАНОИСВРТЛѦПМДꙊѢЪІКБГЫЗШЇЮѠЩЧЙЖХЬУЄЦѴѾѺФѲЍЅѶꙖЀѮѰꙌѼ
-WORDCHARS ́҆̈̆ᲂ҃̑̀҇ⷭ̾ѝ̏ѐⷣⷪⷢⷬⷯⷤⷩⷡⷧⷦⷱⷴⷠⷨⷥѧꙋѡѽꙗꙍ
+WORDCHARS ́҆̈̆ᲂ҃̑̀҇ⷭ̾ѝ̏ѐⷣⷪⷢⷬⷯⷤⷩⷡⷧⷦⷱⷴⷠⷨⷥѧꙋѡѽꙗꙍ҂_
 IGNORE ꙾꙼
 KEY йцꙋкенгшщзхъ|фывапролджѣ|ѧчсмитьбю
 
-REP 2
+BREAK 1
+BREAK _
+
+REP 3
 REP е҆ є҆
 REP Е҆ Є҆
+REP оу҆ ᲂу҆
 
 MAP 2
 MAP е ѣ
 MAP о ѡ
+
+FLAG long
+
+## suffixes and prefixes for numerals
+SFX OR Y 1
+SFX OR 0 _й . # creates ordinals, e.g., а҃_й, рк҃є_й
+
+PFX TA Y 1
+PFX TA 0 ҂а . # creates one thousand, e.g., ҂ак҃д
+
+PFX TB Y 1
+PFX TB 0 ҂в .
+
+PFX TG Y 1
+PFX TG 0 ҂г .
+
+PFX TD Y 1
+PFX TD 0 ҂д .
+
+PFX TE Y 1
+PFX TE 0 ҂є .
+
+PFX TS Y 1
+PFX TS 0 ҂ѕ .
+
+PFX TZ Y 1
+PFX TZ 0 ҂з .
+
+PFX TH Y 1
+PFX TH 0 ҂и .
+
+PFX TT Y 1
+PFX TT 0 ҂ѳ .
 
