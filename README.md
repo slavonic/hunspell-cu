@@ -13,7 +13,8 @@ Licensed under the MIT License.
 ## Quick Start
 
 Copy the `cu.aff` and `cu.dic` files into the Hunspell directory
-(probably `/usr/share/hunspell/`).
+(probably `/usr/share/hunspell/`). You can find the directory by running
+`hunspell -D`.
 
 Extensions also exist for LibreOffice and other software, which
 are based on this package; see, for example:
