@@ -20,6 +20,7 @@ Extensions also exist for LibreOffice and other software, which
 are based on this package; see, for example:
 
 * [LibreOffice Extension](https://extensions.libreoffice.org/extensions/church-slavonic-dictionary)
+* [Add-on for Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/church-slavonic-spelling-dict/).
 
 ## Issues
 
